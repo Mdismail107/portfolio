@@ -86,6 +86,29 @@
     }
   </style>
 </head>
+  <script>
+  const hamburger = document.getElementById('hamburger');
+  const navMenu   = document.getElementById('navMenu');
+  const overlay   = document.getElementById('navOverlay');
+
+  function toggleMenu() {
+    hamburger.classList.toggle('open');
+    navMenu.classList.toggle('open');
+    overlay.classList.toggle('open');
+    document.body.style.overflow = navMenu.classList.contains('open') ? 'hidden' : '';
+  }
+
+  function closeMenu() {
+    hamburger.classList.remove('open');
+    navMenu.classList.remove('open');
+    overlay.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  hamburger.addEventListener('click', toggleMenu);
+  overlay.addEventListener('click', closeMenu);
+  navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+</script>
 <body>
 
   <!-- Navbar -->
