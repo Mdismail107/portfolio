@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Ismail A | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    .cert-list {
+      list-style: none;
+      padding: 0;
+    }
+    .cert-list li {
+      padding: 10px 0;
+      border-bottom: 1px solid #2a2a2a;
+      color: #ccc;
+    }
+    .cert-list li:last-child {
+      border-bottom: none;
+    }
+    .cert-list li::before {
+      content: "🏅 ";
+    }
+    .card h3 a {
+      font-size: 0.85rem;
+      margin-left: 10px;
+      color: #9b5efb;
+      text-decoration: none;
+      background: rgba(155, 94, 251, 0.1);
+      padding: 2px 8px;
+      border-radius: 10px;
+    }
+    .card h3 a:hover {
+      background: rgba(155, 94, 251, 0.3);
+    }
+    .card .tech-tags {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .card .tech-tags span {
+      background: rgba(155, 94, 251, 0.15);
+      color: #c9a8ff;
+      font-size: 0.75rem;
+      padding: 3px 10px;
+      border-radius: 20px;
+      border: 1px solid rgba(155, 94, 251, 0.3);
+    }
+    .card ul {
+      margin: 10px 0 0 1.2rem;
+      color: #ccc;
+    }
+    .card ul li {
+      margin-bottom: 6px;
+    }
+    .contact-links p {
+      margin-bottom: 10px;
+    }
+    .contact-links a {
+      color: #9b5efb;
+      text-decoration: none;
+    }
+    .contact-links a:hover {
+      text-decoration: underline;
+    }
+    .education-card {
+      background: #1b1b1b;
+      border-left: 4px solid #9b5efb;
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+    .education-card h3 {
+      color: #eaeaea;
+      margin-bottom: 5px;
+    }
+    .education-card p {
+      color: #aaa;
+    }
+    .education-card .cgpa {
+      color: #9b5efb;
+      font-weight: 600;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Mohamed Ismail</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Hi, I'm <span class="highlight">Mohamed Ismail</span></h1>
+      <p class="typing">Java Developer | Spring Boot | Full Stack</p>
+      <a href="Mohamed_ismail_A-compressed.pdf" download="Mohamed_Ismail_Resume.pdf" class="btn">Download Resume</a>
+    </div>
+    <div class="socials">
+      <a href="https://linkedin.com/in/mohamed-ismail-a" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Mdismail107" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:md391103@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>👨‍💼 About Me</h2>
+    <p>
+      Results-driven Java Developer with hands-on experience designing and developing scalable backend applications using
+      <strong>Java, Spring Boot, Spring Security,</strong> and <strong>RESTful APIs</strong>. Proficient in database design
+      and integration with <strong>MySQL, Spring Data JPA,</strong> and <strong>Hibernate ORM</strong>. Skilled in implementing
+      <strong>JWT-based authentication</strong>, role-based access control (RBAC), and MVC architecture. Experience with the full
+      software development lifecycle (SDLC), API testing with Postman, and version control using Git and GitHub.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section bg-light">
+    <h2>🛠 Skills</h2>
+    <div class="skills">
+      <span>Java</span>
+      <span>Spring Boot</span>
+      <span>Spring MVC</span>
+      <span>Spring Security</span>
+      <span>Spring Data JPA</span>
+      <span>Hibernate ORM</span>
+      <span>JWT Authentication</span>
+      <span>RBAC</span>
+      <span>RESTful APIs</span>
+      <span>MySQL</span>
+      <span>React.js</span>
+      <span>JavaScript (ES6+)</span>
+      <span>React Hooks</span>
+      <span>React Router</span>
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>Bootstrap</span>
+      <span>Tailwind CSS</span>
+      <span>Postman</span>
+      <span>Git & GitHub</span>
+      <span>IntelliJ IDEA</span>
+      <span>VS Code</span>
+      <span>Maven</span>
+      <span>OOP</span>
+      <span>MVC Architecture</span>
+    </div>
+  </section>
+
+  <!-- Work Experience -->
+  <section id="experience" class="section">
+    <h2>💼 Work Experience</h2>
+    <div class="card">
+      <h3>Java Full Stack Developer Intern — VDart, Trichy <span style="color:#aaa;font-weight:400;font-size:0.9rem;">(Mar 2025 – Aug 2025)</span></h3>
+      <ul>
+        <li>Developed and maintained frontend UI components for a logistics document management system using <strong>React.js</strong> and <strong>Tailwind CSS</strong>, improving feature delivery speed.</li>
+        <li>Integrated RESTful backend APIs into React.js frontend components to enable real-time document data retrieval and status updates.</li>
+        <li>Performed API validation and end-to-end testing using <strong>Postman</strong> to ensure correct request/response flows during integration.</li>
+        <li>Collaborated with backend developers and UI/UX designers using <strong>Git and GitHub</strong> for version control and agile workflows.</li>
+        <li>Participated in sprint planning and code reviews, coordinating cross-functional requirements to deliver UI changes on schedule.</li>
+      </ul>
+      <div class="tech-tags">
+        <span>React.js</span><span>Tailwind CSS</span><span>REST API</span><span>Postman</span><span>Git</span><span>GitHub</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section bg-light">
+    <h2>🚀 Projects</h2>
+
+    <div class="card">
+      <h3>Employee Management System – Backend
+        <a href="https://github.com/Mdismail107/SpringBoot" target="_blank">GitHub</a>
+      </h3>
+      <ul>
+        <li>Engineered RESTful APIs using <strong>Java and Spring Boot</strong> to perform full CRUD operations on employee records and organizational data.</li>
+        <li>Integrated <strong>MySQL</strong> using Spring Data JPA and Hibernate ORM, applying proper entity relationships and data persistence.</li>
+        <li>Implemented <strong>role-based access control (RBAC)</strong> to restrict API endpoint access by user role and permission level.</li>
+        <li>Applied MVC layered architecture (Controller, Service, Repository) for clean separation of concerns and maintainability.</li>
+        <li>Validated all REST API endpoints using Postman; managed source code with Git and GitHub.</li>
+      </ul>
+      <div class="tech-tags">
+        <span>Java</span><span>Spring Boot</span><span>Spring Data JPA</span><span>Hibernate ORM</span><span>MySQL</span><span>REST API</span><span>Postman</span><span>Git</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Interview Management System – Backend
+        <a href="https://github.com/Mdismail107" target="_blank">GitHub</a>
+      </h3>
+      <ul>
+        <li>Architected and developed a backend system in <strong>Java and Spring Boot</strong> to manage candidate interviews, scheduling, and round tracking.</li>
+        <li>Designed and exposed RESTful APIs for managing candidates, interviewers, time slots, and multi-round interview workflows.</li>
+        <li>Implemented <strong>JWT-based authentication</strong> and RBAC for Admin, HR, and Interviewer user roles.</li>
+        <li>Modeled a normalized relational <strong>MySQL</strong> database schema using Spring Data JPA and Hibernate for efficient data management.</li>
+        <li>Secured all API endpoints with <strong>Spring Security</strong> and conducted thorough API testing using Postman.</li>
+      </ul>
+      <div class="tech-tags">
+        <span>Java</span><span>Spring Boot</span><span>Spring Security</span><span>JWT</span><span>Spring Data JPA</span><span>Hibernate ORM</span><span>MySQL</span><span>Postman</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>E-Commerce Website – Frontend
+        <a href="https://github.com/DevWarriors786/Ismail/tree/main/ecommerce-project" target="_blank">GitHub</a>
+      </h3>
+      <ul>
+        <li>Developed a fully responsive e-commerce frontend using <strong>React.js</strong>, implementing component-based UI architecture.</li>
+        <li>Built user authentication flows and managed dynamic UI state using <strong>React Hooks and Context API</strong>.</li>
+        <li>Implemented client-side routing with <strong>React Router</strong> to enable seamless multi-page navigation.</li>
+        <li>Consumed and integrated REST APIs for product listing, cart management, and order processing.</li>
+        <li>Deployed on <strong>GitHub Pages</strong> and maintained codebase using Git for version control.</li>
+      </ul>
+      <div class="tech-tags">
+        <span>React.js</span><span>JavaScript (ES6+)</span><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>REST API</span><span>GitHub Pages</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <h2>🎓 Education</h2>
+    <div class="education-card">
+      <h3>Bachelor of Technology – Information Technology</h3>
+      <p>M.A.M College of Engineering, Trichy — Affiliated to Anna University</p>
+      <p>2021 – 2025</p>
+      <p class="cgpa">CGPA: 8.0 / 10</p>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="section bg-light">
+    <h2>📜 Certifications</h2>
+    <ul class="cert-list">
+      <li>VDart Academy – Full Stack Development (On-the-Job Training)</li>
+      <li>TNSIF – Full Stack Web Development (Java, Spring Boot, MySQL, HTML, CSS, JavaScript)</li>
+      <li>Systech – Full Stack Development (Java, Spring Boot, Hibernate, MySQL)</li>
+      <li>Abservetech Pvt. Ltd. – Machine Learning Internship (KNN Algorithm)</li>
+      <li>Udemy – 100 Days of Code™: The Complete Python Pro Bootcamp</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact-links">
+    <h2>📬 Contact</h2>
+    <p><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:md391103@gmail.com">md391103@gmail.com</a></p>
+    <p><i class="fas fa-phone"></i> &nbsp;+91 9944107151</p>
+    <p><i class="fab fa-linkedin"></i> &nbsp;<a href="https://linkedin.com/in/mohamed-ismail-a" target="_blank">linkedin.com/in/mohamed-ismail-a</a></p>
+    <p><i class="fab fa-github"></i> &nbsp;<a href="https://github.com/Mdismail107" target="_blank">github.com/Mdismail107</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Mohamed Ismail A | Portfolio</p>
+  </footer>
+
+</body>
+</html>
