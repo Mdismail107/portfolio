@@ -182,3 +182,49 @@ footer {
     font-size: 2.2rem;
   }
 }
+/* Mobile Responsive Fix */
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    gap: 10px;
+  }
+
+  .hero {
+    height: auto;
+    padding-top: 120px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .typing {
+    font-size: 1rem;
+    white-space: normal;
+    border-right: none;
+    animation: none;
+  }
+
+  .socials {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .skills span {
+    display: inline-block;
+    margin: 5px;
+  }
+}
